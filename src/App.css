@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* navbar */
+.btn-half {
+  background: #fac896;
+  background-image: -webkit-linear-gradient(top, #fac896, #ff8903);
+  background-image: -moz-linear-gradient(top, #fac896, #ff8903);
+  background-image: -ms-linear-gradient(top, #fac896, #ff8903);
+  background-image: -o-linear-gradient(top, #fac896, #ff8903);
+  background-image: linear-gradient(to bottom, #fac896, #ff8903);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: solid #fc8c2a 2px;
+  text-decoration: none;
+  width: 144;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-half:hover {
+  background: #f57811;
+  text-decoration: none;
+}
+.btn-full {
+  background-color: transparent;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ef730e;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: solid #fc8c2a 2px;
+  text-decoration: none;
+  width: 144;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-full:hover {
+  background: #fc8c2a ;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+/* navbar */
+/* homepage */
+.landing-page{
+  height: 70vh;
+  /* background-color: #eeefa8; */
+  background: rgb(255,255,255);
+background: linear-gradient(31deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%, rgba(255,255,255,1) 35%);
+}
+.sub-1{
+  width: 50%;
+}
+.image{
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-1{
+  height: 300px;
+  background: rgb(255,255,255);
+  background: linear-gradient(161deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%, rgba(255,255,255,1) 35%);
+}
+.landing-2{
+  height: 80vh;
+  background: rgb(255,255,255);
+background: linear-gradient(338deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%, rgba(255,255,255,1) 35%);
+}
+.landing-3{
+  height: 80vh;
+  background: rgb(255,255,255);
+background: linear-gradient(202deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%, rgba(255,255,255,1) 35%);
+}
+.footerr{
+  background: rgb(255,255,255);
+background: linear-gradient(86deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%, rgba(255,255,255,1) 71%);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* signup page */
+.signup-page{
+  height: 100vh;
+  background: rgb(255,193,7);
+  background: linear-gradient(0deg, rgba(255,193,7,1) 0%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%);
 }
