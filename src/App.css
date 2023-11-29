@@ -82,3 +82,7 @@ background: linear-gradient(86deg, rgba(255,255,255,1) 0%, rgba(255,218,81,1) 0%
   background: rgb(255,193,7);
   background: linear-gradient(0deg, rgba(255,193,7,1) 0%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 100%);
 }
+/* dashboard page */
+.dash-page{
+  height: 90vh;
+}
